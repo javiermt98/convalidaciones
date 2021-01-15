@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <menuitem name="CONVALIDACIONES" id="convalidaciones.menu_root" />
+        <menuitem name="" id="convalidaciones.menu_alumno" parent="convalidaciones.menu_root" action="convalidaciones.action_window_alumno" />
+        <menuitem name="" id="convalidaciones.menu_ciclo" parent="convalidaciones.menu_root" action="convalidaciones.action_window_ciclo" />
+        <menuitem name="" id="convalidaciones.menu_conv" parent="convalidaciones.menu_root" action="convalidaciones.action_window_conv" />
+        <menuitem name="" id="convalidaciones.menu_modulo" parent="convalidaciones.menu_root" action="convalidaciones.action_window_modulo" />
+        <menuitem name="" id="convalidaciones.menu_profesores" parent="convalidaciones.menu_root" action="convalidaciones.action_window_profesores" />
+
+
+    </data>
+</odoo>
